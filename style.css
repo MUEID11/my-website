@@ -3,6 +3,7 @@ nav{
     justify-content: space-between;
     background-color: rgb(124, 36, 255);
     padding: 10px 200px;
+    border-bottom: 4px solid rgb(40, 219, 250);;
 }
 nav ul{
     display: flex;
@@ -30,4 +31,38 @@ nav ul li a:hover{
 nav div{
     color: white;
     font-size: 20px;
+}
+/*hero area code*/
+header{
+    background-image: url('images/background.jpg');
+    padding: 300px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-parent i{
+    color: royalblue;
+    background-color: rgb(99, 227, 249);
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-left: -10px;
+
+}
+div input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 20px;
 }
