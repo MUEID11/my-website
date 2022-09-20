@@ -1,7 +1,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(124, 36, 255);
+    background-color: rgb(36, 164, 255);
     padding: 10px 200px;
     border-bottom: 4px solid rgb(40, 219, 250);;
 }
@@ -24,7 +24,7 @@ nav ul li a{
     transition: .5s;
 }
 nav ul li a:hover{
-    background-color: rgb(104, 0, 200);
+    background-color: rgb(0, 127, 200);
     color: rgb(255, 207, 207);
     
 }
@@ -65,4 +65,24 @@ div input{
     border: none;
     font-size: 20px;
     padding: 5px 20px;
+}
+/*main section code*/
+main{
+    background-color:  rgb(36, 167, 255);
+    padding: 50px 0;
+    color: white;
+    
+}
+.video-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.video-section span{
+    color:royalblue ;
+    background-color: aliceblue;
+    padding: 1px 4px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
 }
